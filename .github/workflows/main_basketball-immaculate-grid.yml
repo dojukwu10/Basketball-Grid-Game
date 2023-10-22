@@ -25,13 +25,13 @@ jobs:
         run: |
           npm ci
           npm run build
-        working-directory: ./your-react-app-directory # Specify the path to your React app
+        working-directory: ./Basketball-Grid-Game # Specify the path to your React app
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2 # Updated to v2
         with:
           name: react-app
-          path: ./your-react-app-directory/build # Specify the path to the build folder
+          path: ./Basketball-Grid-Game/build # Specify the path to the build folder
 
   deploy:
     runs-on: ubuntu-latest
