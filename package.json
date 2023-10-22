@@ -2,7 +2,7 @@
   "name": "todo2",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://dojukwu10.github.io/NBA-Grid",
+  "homepage": "https://basketball-immaculate-grid.azurewebsites.net/",
   "type": "module",
   "scripts": {
     "dev": "vite",
