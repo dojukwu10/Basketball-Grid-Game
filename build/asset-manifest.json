@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Basketball-Grid-Game/static/css/main.bc0bf9c5.css",
-    "main.js": "/Basketball-Grid-Game/static/js/main.7ed8f355.js",
-    "index.html": "/Basketball-Grid-Game/index.html",
-    "main.bc0bf9c5.css.map": "/Basketball-Grid-Game/static/css/main.bc0bf9c5.css.map",
-    "main.7ed8f355.js.map": "/Basketball-Grid-Game/static/js/main.7ed8f355.js.map"
+    "main.css": "/static/css/main.bc0bf9c5.css",
+    "main.js": "/static/js/main.29963db9.js",
+    "index.html": "/index.html",
+    "main.bc0bf9c5.css.map": "/static/css/main.bc0bf9c5.css.map",
+    "main.29963db9.js.map": "/static/js/main.29963db9.js.map"
   },
   "entrypoints": [
     "static/css/main.bc0bf9c5.css",
-    "static/js/main.7ed8f355.js"
+    "static/js/main.29963db9.js"
   ]
 }

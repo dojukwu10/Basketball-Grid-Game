@@ -5,6 +5,7 @@
   "homepage": "https://basketball-immaculate-grid.azurewebsites.net/",
   "type": "module",
   "scripts": {
+    "start": "react-scripts start",
     "dev": "vite",
     "build": "react-scripts build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 10",

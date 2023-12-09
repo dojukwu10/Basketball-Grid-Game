@@ -143,7 +143,7 @@ export default function App(){
 //function fetchData is defined in useEffect. useEffect is called whenever changes is made to input of search bar. Searchbar input is used as argument fpr fetchData to search mongodb 
 useEffect(() => {
   const fetchData = (name) => {
-    fetch('http://34.130.10.208:3000/player_routes/players/search?name=' + name)
+    fetch('https://34.130.10.208:8443/player_routes/players/search?name=' + name)
       .then((res) => res.json())
       .then((playerData) => {
         // Map the playerData to an array of player objects
@@ -361,14 +361,14 @@ const updateSearchBar = (i) =>
 <div className="immaculate-grid">
     <h3></h3>
 
-    <button className="immaculate-grid2" style={{ backgroundColor: team1Color }}>
+    <button className="grid-item2" style={{ backgroundColor: team1Color }}>
     <span className="button-text" style={{ color: '#FFFFFF' }}>{team1}</span>
 
     </button>
-    <button style={{ backgroundColor: team2Color }}>
+    <button className="grid-item2" style={{ backgroundColor: team2Color }}>
     <span className="button-text" style={{ color: '#FFFFFF' }}>{team2}</span>
     </button>
-    <button style={{ backgroundColor: team3Color }}>
+    <button className="grid-item2" style={{ backgroundColor: team3Color }}>
     <span className="button-text" style={{ color: '#FFFFFF' }}>{team3}</span>
     </button>
     <button className="grid-item2" style={{ backgroundColor: team4Color }}>
